@@ -18,3 +18,14 @@ python3 sequence_similarity.py -d input.db -t 0.5
 - `input_filtered.db`: The filtered `.db` file.
 - `input.png`: The heatmap of the `ncd` values before filtering.
 - `input_filtered.png`: The heatmap of the `ncd` values after filtering.
+
+# Normalized Compression Distance Equation
+$$
+\begin{equation}
+	ncd(x,y) = \frac{C(xy)-\min(C(x),C(y))}{\max(C(x),C(y))}
+\end{equation}
+$$
+Where $C(x)$ is the length of the compressed string $x$, $C(xy)$ is the length of the concatenated string $xy$.
+
+
+
