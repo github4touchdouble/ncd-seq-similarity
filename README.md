@@ -21,9 +21,7 @@ python3 sequence_similarity.py -d input.db -t 0.5
 
 # Normalized Compression Distance Equation
 $$
-\begin{equation}
 	ncd(x,y) = \frac{C(xy)-\min(C(x),C(y))}{\max(C(x),C(y))}
-\end{equation}
 $$
 Where $C(x)$ is the length of the compressed string $x$, $C(xy)$ is the length of the concatenated string $xy$.
 
