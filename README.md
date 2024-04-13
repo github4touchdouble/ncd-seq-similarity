@@ -24,5 +24,8 @@ $ncd(x,y) = \frac{C(xy)-\min(C(x),C(y))}{\max(C(x),C(y))}$
 
 Where $C(x)$ is the length of the compressed string $x$, $C(xy)$ is the length of the concatenated string $xy$.
 
+# Plots
+## Heatmap before filtering
+![CB513 No Filter](cb513.png)
 
-
+![CB513 Filter](cb513_filtered.png)
